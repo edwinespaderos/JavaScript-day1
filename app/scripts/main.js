@@ -6,9 +6,12 @@ var wolf = {
 	ears: 2,
 	tail: 1,
 	food: ["fish", "rabbit", "hiker", "jogger"],
-	eating: function(){
-		
+	
+	eats: function(person){
+		person.eaten = true
+		console.log ('That was good!')
 	}
+	
 };
  
 var hiker = {
@@ -16,11 +19,10 @@ var hiker = {
 	 legs: 2,
 	 hat: 1,
 	 boots: true,
-	 food: false,
+	 eaten: false,
 	 backpack: ["flashlight", "map", "rope", "food"]
-	 hiking: function(){
 
-	 }
+	
 
 };
 
@@ -28,11 +30,9 @@ var jogger = {
 	name: "Jane",
 	legs: 2,
 	shoes: true,
-	fannypack: ["ipod", "snack", "wallet"]
-	food: false,
-	running: function(){
+	fannypack: ["ipod", "snack", "wallet"],
+	eaten: false,
 
-	}
 };
 
 // countEars: function(){
