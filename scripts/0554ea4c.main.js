@@ -1,1 +1,0 @@
-console.log("El Edwin");var wolf={legs:4,ears:2,name:"Juan",bark:function(){console.log("WOOF!")}};
