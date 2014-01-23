@@ -1,0 +1,1 @@
+console.log("El Edwin");var wolf={name:"Juan",legs:4,ears:2,tail:1,food:["fish","rabbit","hiker","jogger"],eats:function(a){a.eaten=!0,console.log("That was good!")}},hiker={name:"Dan",legs:2,hat:1,boots:!0,eaten:!1,backpack:["flashlight","map","rope","food"]},jogger={name:"Jane",legs:2,shoes:!0,fannypack:["ipod","snack","wallet"],eaten:!1};
